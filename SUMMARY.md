@@ -1,6 +1,13 @@
-# Summary
+# Sommaire
 
 * [Introduction](introduction.md)
-
-* [Getting started](getting-started/README.md)
-    * [Overview](getting-started/overview.md)
+* [Installation](installation.md)
+* [Interagir avec le chat](interagir-chat.md)
+* [Utiliser les suggestions de l'IA](suggestions-ia.md)
+* [Sélectionner un dossier](selectionner-dossier.md)
+* [Actions rapides liées à un dossier](actions-rapides-dossier.md)
+* [Gérer vos documents](gerer-documents.md)
+* [Gérer vos emails](gerer-emails.md)
+* [Gérer vos modèles](gerer-modeles.md)
+* [Gestion de compte utilisateur](gestion-compte-utilisateur.md)
+* [Gestion de compte étude](gestion-compte-etude.md)

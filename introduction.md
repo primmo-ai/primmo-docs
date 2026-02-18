@@ -1,7 +1,7 @@
 # Introduction
 
-Welcome to the Primmo documentation.
+Bienvenue dans la documentation Primmo.
 
-This space covers product guides, architecture, and how-to content for Primmo’s platform (web app, Outlook add-in, Word add-in, and backend).
+Primmo est l’assistant IA pour les études notariales. Cette documentation décrit comment installer et utiliser la plateforme : application web, complément Outlook, complément Word et gestion de votre compte et de votre étude.
 
-Use the sidebar to navigate. You can contribute by opening pull requests against this repository.
+Utilisez le sommaire pour naviguer. Les sujets sont présentés dans l’ordre logique : installation, utilisation du chat et des dossiers, gestion des documents et des emails, puis administration du compte utilisateur et du compte étude.
