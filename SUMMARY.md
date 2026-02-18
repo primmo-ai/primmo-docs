@@ -1,6 +1,6 @@
-# Sommaire
+# Table of contents
 
-* [Introduction](introduction.md)
+* [Introduction](README.md)
 * [Installation](installation.md)
 * [Interagir avec le chat](interagir-chat.md)
 * [Utiliser les suggestions de l'IA](suggestions-ia.md)
