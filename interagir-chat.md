@@ -2,7 +2,7 @@
 
 Le chat Primmo est le cœur de l’assistant : vous y formulez vos demandes et fournissez du contexte (dossier, documents, e-mail, document Word, modèles) pour obtenir des réponses adaptées. Ce chapitre décrit comment envoyer des demandes, enrichir le contexte et personnaliser le comportement.
 
----
+***
 
 ## Demandes
 
@@ -11,7 +11,7 @@ Le chat Primmo est le cœur de l’assistant : vous y formulez vos demandes et f
 1. Dans la zone de saisie en bas du chat, **formulez votre demande** en texte.
 2. **Appuyez sur Entrée** ou cliquez sur le bouton **Envoyer** pour lancer la requête.
 
-L’assistant répond en s’appuyant sur le contexte actuel (dossier sélectionné, documents et e-mails ajoutés, etc.).
+L’assistant répond en s’appuyant sur le contexte disponible (dossier sélectionné, documents et e-mails ajoutés, etc.).
 
 ### Micro (saisie vocale)
 
@@ -26,7 +26,7 @@ La première fois, autorisez l’accès au microphone lorsque l’application le
 
 Que la demande soit saisie au clavier ou issue de la transcription vocale, utilisez le **bouton Envoyer** ou la touche **Entrée** pour l’envoyer. La réponse de l’IA s’affiche ensuite dans le fil de conversation.
 
----
+***
 
 ## Fournir du contexte
 
@@ -36,20 +36,29 @@ Plus le contexte est précis, plus les réponses sont pertinentes. Vous pouvez s
 
 Lorsque vous **sélectionnez un dossier** dans l’interface Primmo (bouton « Sélectionner un dossier » ou équivalent) :
 
-- Les **documents du dossier** sont fournis automatiquement en contexte à l’assistant.
-- Si la **connexion au LRA** (logiciel de gestion de dossiers) est active, la **synchronisation des documents du LRA** est automatiquement lancée pour ce dossier, et les documents à jour sont pris en compte.
-- Les **e-mails enregistrés** dans Primmo pour ce dossier sont également fournis en contexte.
+* Les **documents du dossier** sont fournis automatiquement en contexte à l’assistant.
+* Si la **connexion au LRA** (logiciel de gestion de dossiers) est active, la **synchronisation des documents du LRA** est automatiquement lancée pour ce dossier, et les documents à jour sont pris en compte.
+* Les **e-mails enregistrés** dans Primmo pour ce dossier sont également fournis en contexte.
 
 Cela permet à Primmo de répondre en s’appuyant sur le contenu du dossier et des e-mails associés.
 
 ### Ajouter un document
 
-Vous pouvez **ajouter des documents** au contexte de la conversation de plusieurs façons :
+Vous pouvez **ajouter des documents** au contexte de la conversation. Cela vous permet:
 
-- **Glisser-déposer** : faites glisser un ou plusieurs fichiers (PDF, Word, Excel, images, etc.) dans la zone prévue à cet effet (zone de chat ou zone « Déposez vos fichiers ici »).
-- **Depuis une pièce jointe** : dans l’onglet ou la section dédiée (par ex. « Pièces jointes »), sélectionnez une pièce jointe de l’e-mail en cours pour l’ajouter au contexte.
-- **Depuis le navigateur de fichiers** : utilisez le bouton ou le lien **Importer** / **Ajouter** pour ouvrir un navigateur de fichiers et choisir un document sur votre ordinateur.
-- **Upload via le bouton** : un bouton dédié (par ex. « Ajouter au contexte ») ouvre un sélecteur vous permettant de choisir un **document du dossier**, une **pièce jointe** ou un **document présent sur votre ordinateur**.
+* De travailer sans dossier pré-selectionné
+* De rajouter des documents en contexte, pas encore versés au dossier
+* De citer des documenents du dossier, de manière plus ciblée
+
+Vous pouvez ajouter les documents de plusieurs façons :
+
+* **Glisser-déposer** :&#x20;
+  * faites glisser un ou plusieurs fichiers (PDF, Word, Excel, images, etc.) dans la zone de Chat
+  * Ces fichiers peuvent provenir directement d'un email en faisant glisser les pièces jointes, ou de votre ordinateur
+* **Depuis le bouton d'ajout de documents dans le Chat**&#x20;
+  * Sélectionner les documents de votre dossier
+  * Ajouter un document ou fichier zip depuis votre ordinateur
+  * Depuis Outlook, ajouter une pièce jointe
 
 Les documents ajoutés apparaissent dans la zone de contexte et sont utilisés par l’assistant pour répondre à vos demandes.
 
@@ -67,31 +76,33 @@ Cela permet de réutiliser des formulations types ou des instructions récurrent
 
 Dans le complément Outlook, vous pouvez **inclure l’e-mail actuellement ouvert** dans le contexte du chat.
 
-- **Sélectionnez** l’option dédiée (par ex. « Ajouter l’e-mail en cours » ou case à cocher équivalente) pour que le contenu de l’e-mail soit fourni à l’assistant.
-- **Désélectionnez** pour retirer l’e-mail du contexte.
+* **Sélectionnez** l’option dédiée (par ex. « Ajouter l’e-mail en cours » ou case à cocher équivalente) pour que le contenu de l’e-mail soit fourni à l’assistant.
+* **Désélectionnez** pour retirer l’e-mail du contexte.
 
-Utile pour demander une réponse à un e-mail, un rappel de suivi ou une synthèse.
+L'email en cours est toujours inclus par défaut à chaque fois que vous passez sur un nouvel email.
 
 ### Ajouter le document Word
 
 Dans le complément Word, vous pouvez **inclure le document Word ouvert** dans le contexte.
 
-- **Sélectionnez** l’option prévue (par ex. « Ajouter le document Word ») pour que le contenu du document soit envoyé à l’assistant.
-- **Désélectionnez** pour ne plus l’utiliser comme contexte.
+* **Sélectionnez** l’option prévue (par ex. « Ajouter le document Word ») pour que le contenu du document soit envoyé à l’assistant.
+* **Désélectionnez** pour ne plus l’utiliser comme contexte.
 
 Cela permet de faire rédiger, compléter ou modifier du texte en s’appuyant sur le document en cours.
 
----
+Le document Word en cours est toujours inclus par défaut à chaque fois que vous passez sur un nouveau document Word ou que vous réinitialisez une conversation.
+
+***
 
 ## Interrompre
 
 Pour **interrompre** une réponse en cours (génération de l’IA) :
 
-- Cliquez sur le **bouton rouge** en bas à droite de la zone de chat (bouton d’arrêt).
+* Cliquez sur le **bouton rouge** en bas à droite de la zone de chat (bouton d’arrêt).
 
-La génération s’arrête immédiatement ; le message en cours peut rester partiellement affiché. Vous pouvez ensuite envoyer une nouvelle demande ou modifier la précédente.
+La génération s’arrête immédiatement ; le message en cours peut rester partiellement affiché. Vous pouvez ensuite envoyer une nouvelle demande.
 
----
+***
 
 ## Personnaliser
 
