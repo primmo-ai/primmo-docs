@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Installation](installation.md)
+* [Trouver Primmo dans vos outils](trouver-primmo-dans-vos-outils.md)
 * [Interagir avec le chat](interagir-chat.md)
 * [Utiliser les suggestions de l'IA](suggestions-ia.md)
 * [Sélectionner un dossier](selectionner-dossier.md)
