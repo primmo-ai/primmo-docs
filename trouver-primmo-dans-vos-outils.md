@@ -6,7 +6,7 @@ Primmo apparait dans l'onglet Accueil.
 
 Pour que Primmo soit activé, il est nécessaire d'avoir un email ouvert, soit en lecture, soit en écriture. &#x20;
 
-## Dans les actes
+## Dans les actes et documents Word
 
 Depuis vos actes, accédez à Primmo depuis l'onglet "Accueil".
 
