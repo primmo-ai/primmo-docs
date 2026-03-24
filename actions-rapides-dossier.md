@@ -6,6 +6,10 @@ Une fois un **dossier** sélectionné, plusieurs **actions rapides** sont dispon
 
 ## Collecte LCBFT
 
+{% hint style="info" %}
+Cette fonctionnalité est disponible uniquement si vous avez connecté votre LRA.
+{% endhint %}
+
 ### Demande
 
 L’action **Collecte** (ou **Collecte LCBFT Urbanisme**) permet de lancer une collecte des documents LCBFT et Urbanisme liés au dossier, sur la base des informations présentes dans vos fiches immeubles et fiches clients de votre LRA.
@@ -18,6 +22,12 @@ Cette option n'est disponible que si vous avez connecté votre LRA.
 ### Restitution
 
 Une fois la collecte effectuée, les documents vous sont envoyés par email. Vous pouvez les analyser avec Primmo et les verser à votre LRA.
+
+{% hint style="info" %}
+Dans certains cas, les demandes peuvent recevoir des restitutions incomplètes. Nous vous invitons à essayer à nouveau, cela règle généralement le problème.\
+\
+Si le problème persiste, vérifiez les droits d'accès à votre dossier dans votre LRA. Primmo ne peut pas accéder aux dossiers qui ont des droits d'accès restreints, à moins d'être explicitement rajouté au dossier.
+{% endhint %}
 
 ***
 
