@@ -80,6 +80,16 @@ Sans cette autorisation, la saisie vocale ne fonctionnera pas. Vous pourrez touj
 
 ***
 
+## Liaison du compte Outlook
+
+Vous pouvez activer la synchronisation avec votre compte Outlook. Cela permettre de donner à Primmo connaissance de votre calendrier et de vos emails afin de faire des propositions plus pertinentes.
+
+Pour activer la synchronisation, depuis le menu Paramètres, cliquez sur "Lier mon compte Outlook" puis suivez les instructions.&#x20;
+
+{% hint style="info" %}
+Afin que la liaison du compte Outlook soit possible, il faut que votre étude ait autorisé l'application Primmo sur Outlook, via le gestionnaire de messagerie. Consultez [gestion-compte-etude.md](gestion-compte-etude.md "mention") pour plus de détails
+{% endhint %}
+
 ## Résumé
 
 * Créez votre compte Primmo, puis installez les compléments **Outlook** et **Word**.
