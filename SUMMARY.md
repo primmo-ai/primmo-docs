@@ -10,5 +10,6 @@
 * [Gérer vos documents](gerer-documents.md)
 * [Gérer vos emails](gerer-emails.md)
 * [Gérer vos modèles](gerer-modeles.md)
+* [Liaison du compte Outlook](liaison-du-compte-outlook.md)
 * [Gestion de compte utilisateur](gestion-compte-utilisateur.md)
 * [Gestion de compte étude](gestion-compte-etude.md)
