@@ -11,6 +11,7 @@ Pour **créer un nouveau modèle** :
 1. Accédez à la section **Modèles** (depuis le menu paramètres).
 2. Cliquez sur **Créer** (ou « Nouveau modèle »).
 3. Renseignez le **nom** du modèle et son **contenu** (texte ou prompt).
+   1. Vous pouvez lier un document à un modèle afin que l'agent Primmo sache les utiliser lorsque vous activez ce modèle.
 4. Validez la création.
 
 Le modèle apparaît dans la liste et peut être recherché puis inséré dans la zone de saisie du chat (voir [Interagir avec le chat – Ajouter un modèle](interagir-chat.md#ajouter-un-modèle)).
